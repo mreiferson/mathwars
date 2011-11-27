@@ -1,0 +1,61 @@
+Stack Allocation = 12000 bytes
+
+ Start  Stop   Length Name                   Class
+ 00000H 00000H 00000H OPEN_TEXT              CODE
+ 00000H 00015H 00016H FILLA_TEXT             CODE
+ 00016H 055C0H 055ABH _TEXT                  CODE
+ 055D0H 07CBFH 026F0H EMULATOR_TEXT          CODE
+ 07CC0H 0EECDH 0720EH GAMELIB_TEXT           CODE
+ 0EECEH 0EEE1H 00014H QSET_TEXT              CODE
+ 0EEE2H 0EEE2H 00000H C_ETEXT                ENDCODE
+ 0EEF0H 0F05FH 00170H EMULATOR_DATA          FAR_DATA
+ 0F060H 0F0A1H 00042H NULL                   BEGDATA
+ 0F0A2H 0FC72H 00BD1H _DATA                  DATA
+ 0FC74H 0FC75H 00002H XIQC                   DATA
+ 0FC76H 0FC81H 0000CH DBDATA                 DATA
+ 0FC82H 0FC8FH 0000EH CDATA                  DATA
+ 0FC90H 0FC90H 00000H XIFB                   DATA
+ 0FC90H 0FC90H 00000H XIF                    DATA
+ 0FC90H 0FC90H 00000H XIFE                   DATA
+ 0FC90H 0FC90H 00000H XIB                    DATA
+ 0FC90H 0FC9BH 0000CH XI                     DATA
+ 0FC9CH 0FC9CH 00000H XIE                    DATA
+ 0FC9CH 0FC9CH 00000H XPB                    DATA
+ 0FC9CH 0FC9FH 00004H XP                     DATA
+ 0FCA0H 0FCA0H 00000H XPE                    DATA
+ 0FCA0H 0FCA0H 00000H XCB                    DATA
+ 0FCA0H 0FCA0H 00000H XC                     DATA
+ 0FCA0H 0FCA0H 00000H XCE                    DATA
+ 0FCA0H 0FCA0H 00000H XCFB                   DATA
+ 0FCA0H 0FCA0H 00000H XCFCRT                 DATA
+ 0FCA0H 0FCA0H 00000H XCF                    DATA
+ 0FCA0H 0FCA0H 00000H XCFE                   DATA
+ 0FCA0H 0FCA0H 00000H XIFCB                  DATA
+ 0FCA0H 0FCA0H 00000H XIFU                   DATA
+ 0FCA0H 0FCA0H 00000H XIFL                   DATA
+ 0FCA0H 0FCA0H 00000H XIFM                   DATA
+ 0FCA0H 0FCA0H 00000H XIFCE                  DATA
+ 0FCA0H 0FCA3H 00004H EXEC                   DATA
+ 0FCA4H 0FCC7H 00024H CONST                  CONST
+ 0FCC8H 0FCCFH 00008H HDR                    MSG
+ 0FCD0H 0FEAFH 001E0H MSG                    MSG
+ 0FEB0H 0FEB1H 00002H PAD                    MSG
+ 0FEB2H 0FEB2H 00001H EPAD                   MSG
+ 0FEB4H 0FECDH 0001AH _BSS                   BSS
+ 0FECEH 0FECEH 00000H XOB                    BSS
+ 0FECEH 0FECEH 00000H XO                     BSS
+ 0FECEH 0FECEH 00000H XOE                    BSS
+ 0FECEH 0FECEH 00000H XOFB                   BSS
+ 0FECEH 0FECEH 00000H XOF                    BSS
+ 0FECEH 0FECEH 00000H XOFE                   BSS
+ 0FED0H 11811H 01942H c_common               BSS
+ 11820H 146FFH 02EE0H STACK                  STACK
+
+ Origin   Group
+ 0F06:0   DGROUP
+
+Program entry point at 0001:0016
+
+c:\msvc\lib\mlibce.lib(dos\crt0.asm) : error L2029: '_main' : unresolved external
+open.obj(open.c) : error L2029: '_sound_enabled' : unresolved external
+
